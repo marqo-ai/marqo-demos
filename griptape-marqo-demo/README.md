@@ -8,8 +8,6 @@ git pull git@github.com:griptape-ai/griptape-chat.git
 cd griptape-chat
 ```
 
-To know more, refer to the Marqo getting started guide [here](https://github.com/marqo-ai/marqo).
-
 ## Setting up the runtime environment
 Create file called .env in the root of this project directory and add the following content:
  ```shell
@@ -38,11 +36,12 @@ Once you are logged in, click on the "Personal" text on the top right of your br
 2. Use docker to run Marqo (Mac users with M-series chips will need to [go here](https://github.com/marqo-ai/marqo#m-series-mac-users)): 
 
 ```shell
-
 docker rm -f marqo
 docker pull marqoai/marqo:latest
 docker run --name marqo -it --privileged -p 8882:8882 --add-host host.docker.internal:host-gateway marqoai/marqo:latest
 ```
+
+To know more, refer to the Marqo getting started guide [here](https://github.com/marqo-ai/marqo).
 
 ### via poetry
 ```shell
