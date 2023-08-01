@@ -1,6 +1,6 @@
 # Griptape Chat Demo
 
-The demo uses [Gradio](https://www.gradio.app/) for the frontend and [Griptape](https://github.com/griptape-ai/griptape) for the backend.
+The demo uses [Gradio](https://www.gradio.app/) for the frontend and [Griptape](https://github.com/griptape-ai/griptape) and [Marqo](https://github.com/marqo-ai/marqo) for the backend.
 
 ## Get the code
 ```shell
